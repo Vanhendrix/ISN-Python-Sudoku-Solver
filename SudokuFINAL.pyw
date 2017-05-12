@@ -179,16 +179,16 @@ class Window:
 
                 epaisseur = 0
 
-        self.btn1 = Button(self.fr9, text = 'Save', fg = 'red', font = ('Arial', 13), command = self.save)
+        self.btn1 = Button(self.fr9, text = 'Sauvegarder', fg = 'red', font = ('Arial', 13), command = self.save)
         self.btn1.pack(side = RIGHT)
 
-        self.btn2 = Button(self.fr9, text = 'Solve', fg = 'blue', font = ('Arial', 13), command = self.regle)
+        self.btn2 = Button(self.fr9, text = 'Résoudre', fg = 'green', font = ('Arial', 13), command = self.regle)
         self.btn2.pack(side = LEFT)
 
-        self.btn3 = Button(self.fr9, text = 'Open', fg = 'blue', font = ('Arial', 13), command = self.abre)
+        self.btn3 = Button(self.fr9, text = 'Ouvrir', fg = 'blue', font = ('Arial', 13), command = self.abre)
         self.btn3.pack(side = LEFT)
 
-        self.btn3 = Button(self.fr9, text = 'Reset', fg = 'red', font = ('Arial', 13), command = self.reset)
+        self.btn3 = Button(self.fr9, text = 'Reinitialiser', fg = 'purple', font = ('Arial', 13), command = self.reset)
         self.btn3.pack(side = RIGHT)
 
         self.__nomdefichier = "entrÃ©e.txt"
